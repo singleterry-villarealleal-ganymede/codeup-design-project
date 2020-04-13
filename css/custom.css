@@ -28,14 +28,13 @@ h4  {
 }
 
 h5 {
-    font-size: 28px;
+    font-size: 32px;
     font-family: 'Abel', sans-serif;
 }
 
 .image {
     border: 15px solid #E6E6E6;
     padding: 0;
-
 }
 
 .circle  {
@@ -69,16 +68,16 @@ h5 {
 .circle-icon {
     height: 50px;
     width: 50px;
-    border: solid 1px white;
     /*justify-content: flex-end;*/
+    margin: .3em;
+    font-size: 25px;
     color: black;
     border-radius: 50px;
-
+    font-family: 'Anton', sans-serif;
 }
 
 .feature-icons {
     /*margin: 1em;*/
-
 }
 
 .red-icon{background-color:#E6563B}
@@ -86,7 +85,7 @@ h5 {
 .green-icon{background-color: #88ae74}
 .blue-icon{background-color: #4ba8a9}
 
-span {
-
-
+.featured-project {
+    font-size: 32px;
+    font-family: 'Abel', sans-serif;
 }
