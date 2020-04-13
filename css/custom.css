@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+}
+
+main {
+    height: 100vh;
+    background-color: lightgrey;
+}
+
+div {
+    height: 100px;
+}
+
+h1 {
+    text-align: center;
+
+}
