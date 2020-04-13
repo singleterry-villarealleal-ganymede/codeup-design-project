@@ -4,6 +4,7 @@
 
 body {
     background-color: lightgrey;
+
 }
 
 body {
@@ -63,4 +64,29 @@ h5 {
 
 .blue {
     background-color: #4ba8a9;
+}
+
+.circle-icon {
+    height: 50px;
+    width: 50px;
+    border: solid 1px white;
+    /*justify-content: flex-end;*/
+    color: black;
+    border-radius: 50px;
+
+}
+
+.feature-icons {
+    /*margin: 1em;*/
+
+}
+
+.red-icon{background-color:#E6563B}
+.yellow-icon{background-color: #DEA03D}
+.green-icon{background-color: #88ae74}
+.blue-icon{background-color: #4ba8a9}
+
+span {
+
+
 }
