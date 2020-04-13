@@ -7,11 +7,38 @@ main {
     background-color: lightgrey;
 }
 
+body {
+    /*font-family: 'Anton', sans-serif;*/
+    /*font-family: 'Abel', sans-serif;*/
+}
+
 div {
-    height: 100px;
+
 }
 
 h1 {
-    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: 64px;
+}
 
+h4  {
+    font-family: 'Anton', sans-serif;
+    /*font-size: 48px;*/
+    /*margin: 100px;*/
+}
+
+.circle  {
+    height: 200px;
+    width: 200px;
+    border: solid white 5px;
+    color: white;
+    border-radius: 200px;
+}
+
+.red {
+    background-color: #E6563B;
+}
+
+.yellow {
+    background-color: #DEA03D;
 }
