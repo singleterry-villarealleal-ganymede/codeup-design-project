@@ -28,7 +28,7 @@ h4  {
 }
 
 h5 {
-    font-size: 32px;
+    font-size: 20px;
     font-family: 'Abel', sans-serif;
 }
 
@@ -91,7 +91,7 @@ h5 {
 .blue-icon{background-color: #4ba8a9}
 
 .featured-project {
-    font-size: 28px;
+    font-size: 20px;
     font-family: 'Abel', sans-serif;
 }
 
@@ -114,6 +114,22 @@ h5 {
     }
 
 
+}
+
+@media screen and (min-width: 768px) {
+    .selected-work {
+        display: flex;
+        justify-content: flex-start;
+
+    }
+    .aside-bar {
+        font-family: 'Anton', sans-serif;
+    }
+
+    .twitter {
+        font-family: 'Abel', sans-serif;
+        font-size: 14px;
+    }
 }
 
 
