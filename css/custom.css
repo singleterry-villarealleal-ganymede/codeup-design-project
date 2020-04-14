@@ -90,6 +90,23 @@ h5 {
     font-family: 'Abel', sans-serif;
 }
 
-@media only {
+@media screen and (min-width: 576px) {
+    .circle-container {
+        display: flex;
+        justify-content: center;
+        border-bottom: 2px solid darkgray;
+    }
 
+    .circle {
+        width: 165px;
+        height: 165px;
+        border-radius: 165px;
+        margin: .3em;
+    }
+
+    h4 {
+        font-size: 30px;
+    }
 }
+
+
