@@ -66,13 +66,13 @@ h5 {
 }
 
 .circle-icon {
-    height: 35px;
-    width: 35px;
+    height: 18px;
+    width: 18px;
     /*justify-content: flex-end;*/
     margin: .3em;
-    font-size: 15px;
+    font-size: 10px;
     color: black;
-    border-radius: 35px;
+    border-radius: 18px;
     font-family: 'Anton', sans-serif;
     display: flex;
     align-items: center;
@@ -95,7 +95,17 @@ h5 {
     font-family: 'Abel', sans-serif;
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (max-width: 575px) {
+    .the-last {
+        display: none;
+    }
+
+    .aside-bar {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
     .circle-container {
         display: flex;
         justify-content: center;
@@ -103,14 +113,22 @@ h5 {
     }
 
     .circle {
-        width: 165px;
-        height: 165px;
-        border-radius: 165px;
+        width: 120px;
+        height: 120px;
+        border-radius: 120px;
         margin: .3em;
     }
 
     h4 {
-        font-size: 30px;
+        font-size: 28px;
+    }
+
+    .the-last {
+        display: none;
+    }
+
+    .aside-bar {
+        display: none;
     }
 
 
@@ -118,9 +136,7 @@ h5 {
 
 @media screen and (min-width: 768px) {
     .selected-work {
-        display: flex;
-        justify-content: flex-start;
-
+        text-align: left;
     }
     .aside-bar {
         font-family: 'Anton', sans-serif;
@@ -130,6 +146,17 @@ h5 {
         font-family: 'Abel', sans-serif;
         font-size: 14px;
     }
+
+    .the-last {
+        display: flex;
+        align-items: center;
+    }
+
+    .thumbnail {
+        width: 60px;
+        height: 60px;
+    }
+
 }
 
 
