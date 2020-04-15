@@ -110,7 +110,7 @@ h2 {
 .blue-icon{background-color: #4ba8a9}
 
 .featured-project {
-    font-size: .7em;
+    font-size: .8em;
     font-family: 'Abel', sans-serif;
 }
 
@@ -124,6 +124,8 @@ h2 {
     bottom: 85px;
     left: 190px;
 }
+
+
 
 
 
@@ -144,6 +146,7 @@ a:link {
 a:visited {
     color: black;
 }
+
 
 /*XS Media Query*/
 
@@ -225,7 +228,13 @@ a:visited {
 
 }
 /*Medium Query*/
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 991px)  {
+    .circle-container {
+        display: flex;
+        justify-content: center;
+        border-bottom: 2px solid darkgray;
+    }
+
     .selected-work {
         text-align: left;
     }
@@ -248,6 +257,115 @@ a:visited {
         height: 60px;
     }
 
+    .logo-codeup {
+        position: relative;
+        right: 180px;
+    }
+
+    h2 {
+        margin-top: -160px;
+        margin-right: 300px;
+        font-size: 40px;
+    }
+
+    nav  {
+        margin-top: -65px;
+        margin-left: 475px;
+    }
+
 }
+
+/*LARGE DEVICES AND UP*/
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    .circle-container {
+        display: flex;
+        justify-content: center;
+        border-bottom: 2px solid darkgray;
+    }
+
+    .selected-work {
+        text-align: left;
+    }
+    .aside-bar {
+        font-family: 'Anton', sans-serif;
+    }
+
+    .twitter {
+        font-family: 'Abel', sans-serif;
+        font-size: 14px;
+    }
+
+    .the-last {
+        display: flex;
+        align-items: center;
+    }
+
+    .thumbnail {
+        width: 60px;
+        height: 60px;
+    }
+
+    .logo-codeup {
+        position: relative;
+        left: 60px;
+    }
+
+    h2 {
+        margin-top: -165px;
+        margin-right: 700px;
+    }
+
+    nav {
+        margin-top: -70px;
+        margin-left: 700px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .circle-container {
+        display: flex;
+        justify-content: center;
+        border-bottom: 2px solid darkgray;
+    }
+
+    .selected-work {
+        text-align: left;
+    }
+    .aside-bar {
+        font-family: 'Anton', sans-serif;
+    }
+
+    .twitter {
+        font-family: 'Abel', sans-serif;
+        font-size: 14px;
+    }
+
+    .the-last {
+        display: flex;
+        align-items: center;
+    }
+
+    .thumbnail {
+        width: 60px;
+        height: 60px;
+    }
+
+    .logo-codeup {
+        position: relative;
+        left: 60px;
+    }
+
+    h2 {
+        margin-top: -165px;
+        margin-right: 700px;
+    }
+
+    nav {
+        margin-top: -70px;
+        margin-left: 700px;
+    }
+
+}
+
 
 
