@@ -32,6 +32,25 @@ h5 {
     font-family: 'Abel', sans-serif;
 }
 
+header {
+
+}
+
+nav {
+    font-family: 'Abel', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+nav div {
+    font-size: 20px;
+    margin: 1em .5em 5em .5em;
+}
+
+h2 {
+    font-size: 48px;
+}
+
 .image {
     border: 15px solid #E6E6E6;
     padding: 0;
@@ -100,16 +119,30 @@ h5 {
     width: 105px;
 }
 
+.nav-logo {
+    position: relative;
+    bottom: 85px;
+    left: 190px;
+}
+
 
 
 .nav-top {
-    height: 100px;
-   top: 200px;
+    height: 65px;
+    margin-top: 100px;
 
 }
 
 header {
     font-family: 'Abel', sans-serif;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: black;
 }
 
 /*XS Media Query*/
@@ -120,8 +153,7 @@ header {
     }
 
     .logo-codeup {
-        display: flex;
-        justify-content: end;
+        background-color: transparent;
     }
 
     .the-last {
@@ -130,6 +162,10 @@ header {
 
     .aside-bar {
         display: none;
+    }
+
+    h5 {
+        text-align: center;
     }
 
 
@@ -161,6 +197,30 @@ header {
     .aside-bar {
         display: none;
     }
+
+    .nav-logo {
+        position: relative;
+        bottom: 85px;
+        left: 270px;
+    }
+
+    h2 {
+        margin-top: -85px;
+    }
+
+    nav {
+        position: relative;
+        bottom: 150px;
+    }
+
+    .work {
+        margin-right: 75px;
+    }
+
+    .blog {
+        margin-left: 75px;
+    }
+
 
 
 }
