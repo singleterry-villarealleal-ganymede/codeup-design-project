@@ -269,14 +269,14 @@ a:visited {
     }
 
     nav  {
-        margin-top: -65px;
+        margin-top: -75px;
         margin-left: 475px;
     }
 
 }
 
 /*LARGE DEVICES AND UP*/
-@media screen and (min-width: 992px) and (max-width: 1199px) {
+@media screen and (min-width: 992px) {
     .circle-container {
         display: flex;
         justify-content: center;
@@ -307,7 +307,7 @@ a:visited {
 
     .logo-codeup {
         position: relative;
-        left: 60px;
+        left: -75px;
     }
 
     h2 {
@@ -316,56 +316,58 @@ a:visited {
     }
 
     nav {
-        margin-top: -70px;
+        margin-top: -80px;
         margin-left: 700px;
     }
 }
 
-@media screen and (min-width: 1200px) {
-    .circle-container {
-        display: flex;
-        justify-content: center;
-        border-bottom: 2px solid darkgray;
-    }
+/*@media screen and (min-width: 1200px) {*/
+/*    .circle-container {*/
+/*        display: flex;*/
+/*        justify-content: center;*/
+/*        border-bottom: 2px solid darkgray;*/
+/*    }*/
 
-    .selected-work {
-        text-align: left;
-    }
-    .aside-bar {
-        font-family: 'Anton', sans-serif;
-    }
+/*    .selected-work {*/
+/*        text-align: left;*/
+/*    }*/
+/*    .aside-bar {*/
+/*        font-family: 'Anton', sans-serif;*/
+/*    }*/
 
-    .twitter {
-        font-family: 'Abel', sans-serif;
-        font-size: 14px;
-    }
+/*    .twitter {*/
+/*        font-family: 'Abel', sans-serif;*/
+/*        font-size: 14px;*/
+/*    }*/
 
-    .the-last {
-        display: flex;
-        align-items: center;
-    }
+/*    .the-last {*/
+/*        display: flex;*/
+/*        align-items: center;*/
+/*    }*/
 
-    .thumbnail {
-        width: 60px;
-        height: 60px;
-    }
+/*    .thumbnail {*/
+/*        width: 60px;*/
+/*        height: 60px;*/
+/*    }*/
 
-    .logo-codeup {
-        position: relative;
-        left: 60px;
-    }
+/*    .logo-codeup {*/
+/*        position: relative;*/
+/*        left: -75px;*/
+/*    }*/
 
-    h2 {
-        margin-top: -165px;
-        margin-right: 700px;
-    }
+/*    h2 {*/
+/*        margin-top: -165px;*/
+/*        margin-right: 700px;*/
+/*    }*/
 
-    nav {
-        margin-top: -70px;
-        margin-left: 700px;
-    }
+/*    nav {*/
+/*        margin-top: -70px;*/
+/*        margin-left: 700px;*/
+/*    }*/
 
-}
+
+
+/*}*/
 
 
 
