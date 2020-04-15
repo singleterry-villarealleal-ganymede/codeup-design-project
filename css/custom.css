@@ -91,11 +91,39 @@ h5 {
 .blue-icon{background-color: #4ba8a9}
 
 .featured-project {
-    font-size: 20px;
+    font-size: .7em;
     font-family: 'Abel', sans-serif;
 }
 
+.logo-codeup {
+    height: 105px;
+    width: 105px;
+}
+
+
+
+.nav-top {
+    height: 100px;
+   top: 200px;
+
+}
+
+header {
+    font-family: 'Abel', sans-serif;
+}
+
+/*XS Media Query*/
+
 @media screen and (max-width: 575px) {
+    .grey-on-top {
+        height: 150px;
+    }
+
+    .logo-codeup {
+        display: flex;
+        justify-content: end;
+    }
+
     .the-last {
         display: none;
     }
@@ -103,8 +131,11 @@ h5 {
     .aside-bar {
         display: none;
     }
+
+
 }
 
+/*Small Media Query*/
 @media screen and (min-width: 576px) and (max-width: 767px) {
     .circle-container {
         display: flex;
@@ -133,7 +164,7 @@ h5 {
 
 
 }
-
+/*Medium Query*/
 @media screen and (min-width: 768px) {
     .selected-work {
         text-align: left;
